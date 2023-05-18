@@ -1,0 +1,21 @@
+#titleImageWithCircle {
+    max-width: 1600px;
+    width: 500px;
+}
+.smallPhoto {
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    padding: 35px;
+    border: 10px;
+    border-color: darkgrey
+}
+div {
+    display: flex;
+    justify-content: center;
+}
+footer {
+    background-color: grey;
+    max-width: 1600px;
+    width: 800px;
+}
