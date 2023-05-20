@@ -14,8 +14,11 @@ html{
     max-width: 1600px
 }
 .icon {
-    width: 18px;
+    width: 80px;
     padding-top: 10px
+}
+.logo {
+    width: 80px;
 }
 nav a {
     text-align: center;
