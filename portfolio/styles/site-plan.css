@@ -176,3 +176,15 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+.home-img {
+  max-width: 350px;
+  height: auto;
+}
+.page-2 {
+  max-width: 350px;
+  height: auto;
+}
+.wireframe-img {
+  max-width: 500px;
+  height: auto;
+}
