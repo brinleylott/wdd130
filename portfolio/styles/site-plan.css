@@ -28,6 +28,14 @@ Fonts are separated by a | */
 
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
+.headerLinks {
+  max-width: 100%;
+  height: 500px;
+  background-color: #F3755F;
+}
+.title {
+  background-color: #F7B0A3;
+}
 
 body {
   max-width: 1200px;
