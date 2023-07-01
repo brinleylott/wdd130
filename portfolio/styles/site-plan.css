@@ -8,7 +8,7 @@ Fonts are separated by a | */
   --primary-color: #F7B0A3   ;
   --secondary-color: #F3755F ;
   --accent1-color: #667C4D;
-  --accent2-color: white;
+  --accent2-color: antiquewhite;
 
   /* change the values below to your chosen font(s) */
   --heading-font: 'DM Serif Display';
