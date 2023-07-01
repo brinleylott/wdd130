@@ -181,3 +181,12 @@ footer {
     width: 40px;
     height: auto;
 }
+@media (max-width: 768px) {
+  /* CSS styles for screens with a maximum width of 768px (typical tablet size) */
+  /* Adjust layout, font sizes, and other styles as needed */
+}
+
+@media (max-width: 480px) {
+  /* CSS styles for screens with a maximum width of 480px (typical mobile phone size) */
+  /* Further adjust layout, font sizes, and other styles as needed */
+}
