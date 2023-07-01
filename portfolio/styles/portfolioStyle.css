@@ -1,0 +1,183 @@
+nav {
+    display: grid;
+    background-color: #F7B0A3;
+    padding: 20px;
+    top: 0;
+    max-width: 100%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 100%;
+    align-content: center;
+}
+.logo {
+    max-width: 100%;
+    height: 75px;
+}
+.nav_link {
+    text-align: center;
+    align-content: center;
+    margin-top: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.lets_talk {
+    max-width: 120px;
+    max-height: 30px;
+    margin-top: 25px;
+    margin-left: 80px;
+    background-color: #F3755F;
+    border-color: #F3755F;
+    color: white;
+    border-radius: 20px;
+}
+#introduction {
+    display: flex;
+    justify-content: space-between; /* Align items horizontally with space between */
+    align-items: center; /* Center items vertically */
+    background-color: antiquewhite;
+    padding: 100px;
+    max-width: 100%;
+  }
+
+  .introduction-content {
+    flex: 1;
+    text-align: center;
+  }
+.discuss {
+    border-radius: 20px;
+    background-color: #F7B0A3;
+    border-color: #F7B0A3;
+    color: white;
+}
+  
+  .intro-img {
+    max-width: auto;
+    max-height: 500px;
+    margin-right: 150px;
+    margin-left: 150px;
+    padding: 10px 10px 10px 10px;
+    background-color: #F7B0A3;
+  }
+  
+  #services-home {
+    text-align: center; /* Center the text within the container */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    align-content: center;
+    background-color: antiquewhite;
+    padding: 20px;
+  }
+  .service {
+    padding: 5px 5px 5px 5px;
+    width: 200px;
+    background-color: #F3755F;
+    align-items: center;
+    align-content: center;
+    margin-left: 120px;
+    row-gap: 10px;
+    }
+h1 {
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+.see-all {
+    grid-column: 1/4;
+    grid-row: 4/5;
+    padding: 5px 5px 5px 5px;
+    width: 100px;
+    margin-left: 645px;
+    border-radius: 20px;
+    background-color: #F7B0A3;
+    border-color: #F7B0A3;
+    color: white;
+}
+  
+#portfolios-home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30px 30px 1fr;
+    text-align: center; /* Center the text within the container */
+    background-color: antiquewhite;
+    padding: 50px;
+  }
+
+.p-title {
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.p-caption {
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+.portfolio-card-gd {
+    width: 300px;
+    padding: 10px 10px 10px 10px;
+    background-color: #F7B0A3;
+    border-radius: 20px;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin-top: 30px;
+    margin-left: 350px
+}
+.portfolio-card-wdd {
+    width: 300px;
+    padding: 10px 10px 10px 10px;
+    background-color: #F7B0A3;
+    border-radius: 20px;
+    grid-column: 2/3;
+    grid-row:3/4;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+footer {
+    display: grid;
+    grid-template-columns: auto auto auto; /* Set three columns */
+    grid-template-rows: auto; /* Only one row is needed */
+    width: 100%;
+    background-color: #F3755F;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .logo-footer {
+    width: 150px;
+    height: auto;
+    grid-column: 1; /* Display in the first column */
+    grid-row: 1; /* Display in the first row */
+  }
+  
+  .social {
+    display: flex;
+    justify-content: center; /* Center the icons and links horizontally */
+    align-items: center; /* Center the icons and links vertically */
+    grid-column: 2 / span 2; /* Span the second and third columns */
+    grid-row: 1; /* Display in the first row */
+  }
+  
+  .social a {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px; /* Add some right margin for spacing between icons and links */
+  }
+  
+  .social p {
+    margin: 0;
+    padding-left: 5px;
+  }
+  
+.logo-footer {
+    width: 100px;
+    height: auto;
+    grid-column: 1/2;
+    margin-right: 70px;
+}
+.social-icon {
+    width: 40px;
+    height: auto;
+}

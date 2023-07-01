@@ -4,63 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/portfolio_style.css">
+    <link rel="stylesheet" href="styles/portfolioStyle.css">
     <title>Home Page</title>
 </head>
 <body>
-    <header>
-         <a id="logo_link" href="index.html">
-            <img class="logo" src="images/personal_site_logo.png" alt="logo">
-         </a>
+    <header class="p-nav">
          <nav>
-            <a href="https://brinleylott.github.io/wdd130/portfolio/index.html">Home</a>
-            <a href="https://brinleylott.github.io/wdd130/portfolio/portfolio-page.html">Portfolio</a>
-            <a href="https://brinleylott.github.io/wdd130/portfolio/services-page.html">Services</a>
+            <img class="logo" src="images/personal_site_logo.png" alt="logo">
+            <a class="nav_link" href="https://brinleylott.github.io/wdd130/portfolio/index.html">Home</a>
+            <a class="nav_link" href="https://brinleylott.github.io/wdd130/portfolio/portfolio-page.html">Portfolio</a>
+            <a class="nav_link" href="https://brinleylott.github.io/wdd130/portfolio/services-page.html">Services</a>
             <button class="lets_talk" href="contactus.html">Let's Talk.</button>
          </nav>
     </header>
     <div id="introduction">
+        <img class="intro-img" src="images/IMG_7886.jpg" alt="picture-of-me">
         <section class="introduction-content">
             <h1 class="title">Hey there, I'm Brinley, a creative Web Designer and Developer.</h1>
             <h4 class="small-words">Designer, UX, Developer</h4>
             <button class="discuss" href="#">Want to discuss?</button>
             <button class="lets_talk" href="contactus.html">Let's Talk.</button>
-            <img class="intro-img" src="images/IMG_7886.jpg" alt="picture-of-me">
         </section>
     </div>
+
     <div id="services-home">
         <h1>Services</h1>
-        <h4>Here are all the services I provide</h4>
-        <div>
+        <div class="service">
             <h4>Logo design</h4>
         </div>
-        <div>
+        <div class="service">
             <h4>T-shirt design</h4>
         </div>
-        <div>
+        <div class="service">
             <h4>Album Covers</h4>
-        </div>
-        <div>
+        </div class="service">
+        <div class="service">
             <h4>Website Creation</h4>
         </div>
-        <div>
+        <div class="service">
             <h4>Website Management</h4>
         </div>
-        <div>
+        <div class="service">
             <h4>Website Remodeling</h4>
         </div>
         <button class="see-all" href="#">See All</button>
     </div>
+
     <div id="portfolios-home">
-        <h1>Portfolios</h1>
-        <h4>Click on a card to see my portfolio for that category</h4>
-        <div class="portfolio-card">
+        <h1 class="p-title">Portfolios</h1>
+        <h4 class="p-caption">Click on a card to see my portfolio for that category</h4>
+        <div class="portfolio-card-gd">
             <h4 class="card-title">Graphic Design</h4>
-            <h4 class="card-msg">...</h4>
+            <h4 class="card-msg">View my portfolio for graphic design! With a passion for creativity and attention to detail, I have delved into the realms of t-shirt design, album covers, and logo creation, crafting unique visual experiences that capture the essence of each project. Explore my work and witness the power of visual storytelling through my diverse range of designs.</h4>
         </div>
-        <div class="portfolio-card">
+        <div class="portfolio-card-wdd">
             <h4 class="card-title">Web Design and Development</h4>
-            <h4 class="card-msg">...</h4>
+            <h4 class="card-msg">View my portfolio for web design and development! As a skilled web designer and developer, I have honed my expertise in crafting captivating online experiences. From creating stunning websites from scratch to managing and remodeling existing ones. Explore my portfolio and witness the seamless fusion of design and technology in the realm of web development.</h4>
         </div>
     </div>
     <footer>
@@ -68,21 +67,21 @@
             <img class="logo-footer" src="images/personal_site_logo.png" alt="logo">
          </a>
          <div class="social">
-            <a href=https://facebook.com target="_blank">
-                <img src="images/facebook.png" alt="fb icon">
-                <p>https://facebook.com </p>
+            <a class="facebook" href=https://facebook.com target="_blank">
+                <img id="face-logo" class="social-icon" src="images/facebook.png" alt="fb icon">
+                <p class="face-text">https://facebook.com </p>
             </a>
-            <a href="https://twitter.com" target="_blank">
-                <img src="images/twitter.png" alt="twitter icon">
-                <p>https://twitter.com</p>
+            <a class="facebook" href="https://twitter.com" target="_blank">
+                <img class="social-icon" src="images/twitter.png" alt="twitter icon">
+                <p class="twit-text">https://twitter.com</p>
             </a>
-            <a href="https://instagram.com" target="_blank">
-                <img src="images/instagram.png" alt="instagram icon">
-                <p>https://instagram.com</p> 
+            <a class="instagram" href="https://instagram.com" target="_blank">
+                <img class="social-icon" src="images/instagram.png" alt="instagram icon">
+                <p class="insta-text">https://instagram.com</p> 
             </a>
-            <a href="https://pinterest.com" tartget="_blank">
-                <img src="images/pinterest.png" alt="pinterest icon">
-                <p class="footer-text">https://pinterest.com</p>
+            <a class="instagram" href="https://pinterest.com" target="_blank">
+                <img class="social-icon" src="images/pinterest.png" alt="pinterest icon">
+                <p class="pin-text">https://pinterest.com</p>
             </a>
         </div>
     </footer>
