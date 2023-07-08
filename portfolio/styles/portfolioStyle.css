@@ -190,3 +190,45 @@ footer {
   /* CSS styles for screens with a maximum width of 480px (typical mobile phone size) */
   /* Further adjust layout, font sizes, and other styles as needed */
 }
+
+/* PORTFOLIO PAGE */
+
+.gd-services {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 250px 250px 250px;
+  grid-gap: 20px;
+  align-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+}
+.medium-img {
+  width: auto;
+  height: 200px;
+  margin-top: 50px;
+  padding: 10px 10px 10px 10px;
+  background-color: #F7B0A3;
+  margin-left: 400px;
+  
+}
+#album-img {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+#fairy-img {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+#poster-img {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  padding-left: 43px;
+  padding-right: 43px;
+}
+.gd-porfolio-p {
+  color: black;
+  grid-column: 2/3;
+  grid-row: span 1; /* Updated */
+  width: 400px;
+}
+
