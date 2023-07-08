@@ -232,3 +232,44 @@ footer {
   width: 400px;
 }
 
+.wdd-services {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 300px 300px;
+  align-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+}
+.p-title {
+  text-align: center;
+  grid-column: 1/4;
+  grid-row: 1/2
+}
+.p-subtitle {
+  text-align: center;
+  grid-column: 1/4;
+  grid-row: 1/2;
+  margin-top: 100px;
+  
+}
+.websites-1 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  width: 200px;
+  height: 200px;
+  background-color: #F7B0A3;
+  border-color:#F7B0A3;
+  margin-left: 440px;
+  margin-bottom: 100px;
+}
+.websites-2 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  width: 200px;
+  height: 200px;
+  background-color: #F7B0A3;
+  border-color:#F7B0A3;
+  margin-left: 40px;
+  margin-bottom: 100px;
+
+}
