@@ -231,11 +231,17 @@ footer {
 .gd-services {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 250px 250px 250px;
+  grid-template-rows: 50px 250px 250px 250px;
   grid-gap: 20px;
   align-content: center;
   align-items: center;
   background-color: antiquewhite;
+}
+.s-title {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  text-align: center;
+  margin-bottom: -20px;
 }
 .medium-img {
   width: auto;
@@ -248,15 +254,15 @@ footer {
 }
 #album-img {
   grid-column: 1/2;
-  grid-row: 1/2;
+  grid-row: 2/3;
 }
 #fairy-img {
   grid-column: 1/2;
-  grid-row: 2/3;
+  grid-row: 3/4;
 }
 #poster-img {
   grid-column: 1/2;
-  grid-row: 3/4;
+  grid-row: 4/5;
   padding-left: 43px;
   padding-right: 43px;
 }
@@ -319,16 +325,22 @@ footer {
 
 /* Services Page */
 
-.wdd-services {
+.wdd-services2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 300px 300px 300px;
+  grid-template-rows: 100px 300px 300px 300px;
+  background-color: antiquewhite;
+}
+.wdd-title {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  text-align: center;
 }
 .medium-L-img-1 {
   width: 300px;
   height: auto;
   grid-column: 1/2;
-  grid-row: 1/2;
+  grid-row: 2/3;
   margin-left: 320px;
   padding: 10px;
   background-color: #F7B0A3;
@@ -337,7 +349,7 @@ footer {
   width: 300px;
   height: auto;
   grid-column: 1/2;
-  grid-row: 2/3;
+  grid-row: 3/4;
   margin-left: 320px;
   padding: 10px;
   background-color: #F7B0A3;
@@ -346,7 +358,7 @@ footer {
   width: 300px;
   height: auto;
   grid-column: 1/2;
-  grid-row: 3/4;
+  grid-row: 4/5;
   margin-left: 320px;
   padding: 10px;
   background-color: #F7B0A3;
@@ -354,54 +366,36 @@ footer {
 .wdd-services-p-1 {
   width: 400px;
   grid-column: 2/3;
-  grid-row: 1/2;
+  grid-row: 2/3;
   font-family: 'Playfair Display', serif;
 }
 .wdd-services-p-2 {
   width: 400px;
   grid-column: 2/3;
-  grid-row: 2/3;
+  grid-row: 3/4;
   font-family: 'Playfair Display', serif;
 }
 .wdd-services-p-3 {
   width: 400px;
   grid-column: 2/3;
-  grid-row: 3/4;
+  grid-row: 4/5;
   font-family: 'Playfair Display', serif;
 }
 .gd-portfolio {
   display: grid;
   grid-template-columns: 350px 350px 350px;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 100px 1fr 1fr;
   background-color: antiquewhite;
+}
+.gd-service-title {
+  grid-column: 1/4;
+  grid-row: 1/2;
+  text-align: center;
+  margin-left: 330px;
 }
 .gd-portfolio-p {
   width: 300px;
-}
-.img2 {
-  grid-column: 1/2;
-  grid-row: 1/2;
-  margin-left: 500px;
-}
-.img1 {
-  grid-column: 2/3;
-  grid-row: 1/2
-}
-.img3 {
-  grid-column: 3/4;
-  grid-row: 1/2;
-}
-.p1 {
-  grid-column: 2/3;
-  grid-row: 2/3
-}
-.p2 {
-  grid-column: 1/2;
-  grid-row: 2/3
-}
-.p3 {
-  grid-column: 3/4;
-  grid-row: 2/3
+  margin-left: 230px;
 }
 .poster-img2 {
   width: auto;
@@ -414,3 +408,21 @@ footer {
   background-color: #F7B0A3;
   margin-left: 300px;
 }
+
+.medium-img2 {
+  width: auto;
+  height: 200px;
+  margin-top: 50px;
+  padding: 10px 10px 10px 10px;
+  background-color: #F7B0A3;
+  margin-left: 250px;
+}
+.medium-img3 {
+  width: auto;
+  height: 200px;
+  margin-top: 50px;
+  padding: 10px 46px 10px 46px;
+  background-color: #F7B0A3;
+  margin-left: 250px;
+}
+
