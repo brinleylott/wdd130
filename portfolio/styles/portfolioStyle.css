@@ -152,7 +152,9 @@ h1 {
     grid-column: 1/2;
     grid-row: 3/4;
     margin-top: 30px;
-    margin-left: 350px
+    margin-left: 350px;
+    display: grid;
+    grid-template-rows: 30px 1fr;
 }
 .portfolio-card-wdd {
     width: 300px;
@@ -163,6 +165,22 @@ h1 {
     grid-row:3/4;
     margin-top: 30px;
     margin-left: 50px;
+    display: grid;
+    grid-template-rows: 30px 1fr;
+}
+.card-title {
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  grid-row: 1/2;
+}
+.card-msg {
+  text-align: center;
+  text-decoration: none;
+  grid-row: 2/3;
+  color: black;
 }
 footer {
     display: grid;
