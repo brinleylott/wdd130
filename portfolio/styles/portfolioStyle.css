@@ -81,7 +81,7 @@ nav {
 }
   
   .intro-img {
-    max-width: auto;
+    width: auto;
     max-height: 500px;
     margin-right: 150px;
     margin-left: 150px;
